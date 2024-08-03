@@ -51,7 +51,6 @@ QuantumOpticsBase.ptrace(state::State, indices) = State(ptrace(state.quantum, in
 
 QuantumOpticsBase.dm(x::State) = State(dm(x.quantum), x.classical)
 
-
 """
     semiclassical.schroedinger_dynamic(tspan, state0, fquantum, fclassical[; fout, ...])
 
